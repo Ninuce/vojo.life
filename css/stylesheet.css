@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "font1";
+  src: url("../fonts/Stalemate-Regular.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../fonts/Raleway-Thin.ttf");
+}
+
+
+li a {
+  color: #959593;
+}
+
+
+nav .navbar-container,
+.navbar-default {
+  padding: 0 0;
+  background-color: rgba(231, 232, 229, 0.7);
+  border-bottom: none;
+}
+
+/*.navbar-right {
+  float: right;
+}*/
+
+
+.logotype {
+  max-height: 40px;
+}
+
+#navbar{
+padding: 0 4rem;
+}
+
+.navbar-brand {
+  padding: 0.5rem;
+}
+
+.subpage-header {
+  background-image: url("../img/landing-front-intro1.jpg");
+  min-height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+
+/*.subpage-cont-header, .container {
+  margin: 0;
+}*/
+
+header .jumbo-title {
+  font-size: 20rem;
+  color: white;
+  padding-top: 27rem;
+  padding-bottom: 0;
+  padding-left: 4rem;
+  display: block;
+
+  /*text-align: center;*/
+}
+
+.subtitle {
+  padding-left: 6rem;
+  color: white;
+}
+
+.entry-choice {
+  margin-left: 4rem;
+}
+
+.row-content {
+  /*margin: 0px auto;*/
+  padding: 3rem 0;
+  /*border-bottom: 1px ridge;*/
+  /*min-height: 400px;*/
+}
+
+.btn-default{
+  color: orange;
+}
+
+.row-footer {
+margin-top: 2rem;
+padding: 4rem 0;
+/*border-top: lightgrey solid 1px;*/
+text-align: center;
+font-size: 1.2rem;
+font-weight: bolder;
+}
+
+
+@media (min-width: 768px) {
+  .row-content {
+    display: flex;
+    /*justify-content: space-between;*/
+  }
