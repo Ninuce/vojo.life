@@ -4,12 +4,23 @@ text-align: center;
 
 h3 {
   text-align: center;
+  padding: 1rem 0;
 }
 
 .jumbotron p {
   text-align: center;
+  margin: 0;
 }
 
-/*input {
-  text-align: center;
-}*/
+.row {
+  padding: 1rem 0;
+}
+
+input {
+  margin-bottom: 2rem;
+  font-size: inherit;
+}
+
+.form-control option {
+  color: green;
+}
