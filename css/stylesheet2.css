@@ -1,0 +1,25 @@
+a {
+	color: #FA8E3A;
+}
+a:hover {
+	color: #FA8E3A;
+}
+
+.fa-border {
+	border-color: #FA8E3A !important;
+}
+
+#sell-add-product-initial {
+	display: table;
+	margin: 0 auto;
+}
+#sell-add-product-initial span {
+	color: black !important;
+}
+#sell-add-product-form {
+	display: none;
+}
+
+#imgInp {
+	display: none;
+}
