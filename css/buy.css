@@ -4,7 +4,7 @@ text-align: center;
 
 h3 {
   text-align: center;
-  padding: 1rem 0;
+  padding: 1rem 0 4rem 0;
 }
 
 .jumbotron p {
@@ -23,4 +23,21 @@ input {
 
 .form-control option {
   color: green;
+}
+
+
+.img-responsive {
+  width: 200px;
+  border-radius: 10px;
+  margin: 1rem auto;
+}
+
+ .btn-default {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+.price {
+  text-align: center;
 }
