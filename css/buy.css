@@ -1,3 +1,6 @@
+
+
+
 h1 {
 text-align: center;
 }
@@ -7,14 +10,31 @@ h3 {
   padding: 1rem 0 4rem 0;
 }
 
+.search-result-row {
+  margin-bottom: 6rem;
+}
+
 .jumbotron p {
   text-align: center;
   margin: 0;
 }
 
+p {
+  text-align: center;
+}
+
 .row {
   padding: 1rem 0;
 }
+
+.divider {
+ /*background-color: 	rgba(255,165,0, 0.6);*/
+ border: dotted orange 1px;
+ border-radius: 10px;
+ text-align: center;
+ margin-bottom: 3rem;
+}
+
 
 input {
   margin-bottom: 2rem;
@@ -36,6 +56,12 @@ input {
   display: block;
   width: 70%;
   margin: auto;
+}
+
+.btn-warning {
+ display: block;
+ width: 50%;
+ margin: auto;
 }
 
 .price {
