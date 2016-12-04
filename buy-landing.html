@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Vogo</title>
+    <title>Vojo</title>
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/stylesheet.css" rel="stylesheet">
@@ -73,7 +73,13 @@
 
         <div class="row row-content">
           <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-            <input class="form-control input-lg" type="text" placeholder="City">
+            <select class="form-control input-lg">
+              <option>Budapest</option>
+              <option>Tallinn</option>
+              <option>Riga</option>
+              <option>Berlin</option>
+              <option>Istanbul</option>
+            </select>
           </div>
         </div>
 
@@ -87,11 +93,11 @@
           <div class="col-xs-12 col-sm-4 col-sm-offset-4">
             <select class="form-control input-lg" id="categorySelect">
               <option value="chairs-search">Chairs</option>
+              <option value='sofas-search'>Sleeping sets</option>
               <option value='tables-search'>Tables / desks</option>
-              <option value='sofas-search'>Sofas</option>
               <option>Beds / matresses</option>
               <option>Kitchen equipment</option>
-              <option>Sleeping sets</option>
+              <option>Sofas</option>
             </select>
           </div>
         </div>
@@ -103,6 +109,8 @@
         </div>
       </div>
     </header>
+
+
 
     <div id="chairs-search" class="container" style="display: none;">
       <div class="row row-content">
@@ -118,89 +126,49 @@
       </div>
 
       <div class="row row-content search-result-row">
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
+        <div class="col-xs-12 col-sm-3 search-result">
           <img src="img/chair123.jpg" class="img-responsive" alt="chair">
           <p class="price">
-            4 eur
+            11 eur
           </p>
 
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
+          <button class="btn btn-warning" type="submit">Add</button>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
 
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
+        <div class="col-xs-12 col-sm-3 search-result">
           <img src="img/chairs.jpg" class="img-responsive" alt="chair">
           <p class="price">
             4 eur
           </p>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
+          <button class="btn btn-warning" type="submit">Add</button>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
 
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
+        <div class="col-xs-12 col-sm-3 search-result">
           <img src="img/chair1.jpg" class="img-responsive" alt="chair">
           <p class="price">
-            4 eur
+            6 eur
           </p>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
+          <button class="btn btn-warning after" type="submit">Add</button>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
 
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
+        <div class="col-xs-12 col-sm-3 search-result">
           <img src="img/stool1.jpg" class="img-responsive" alt="chair">
           <p class="price">
-            4 eur
+            8 eur
           </p>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
+          <button class="btn btn-warning after" type="submit">Add</button>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
       </div>
 
-      <div class="row row-content search-result-row">
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chair5.jpg" class="img-responsive" alt="chair">
-          <!-- <div class="has-success"> -->
-          <p class="price">
-            4 eur
-          </p>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
-<!-- </div> -->
-          <!-- <p class="price">
-            4 eur
-          </p> -->
-          <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
-        </div>
-      </div>
 
       <div class="row row-content search-result-row">
         <div class="col-xs-12 col-sm-4 col-sm-offset-4 search-result" onclick="goToLink('link.html')">
 
-          <a class="btn btn-default" href="#" role="button">Add to basket</a>
+          <a class="btn btn-default btn-lg" href="#" role="button">Add to basket</a>
         </div>
       </div>
     </div>
@@ -214,88 +182,22 @@
 
       <div class="row row-content search-result-row">
         <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chair123.jpg" class="img-responsive" alt="chair">
+          <img src="img/table.jpg" class="img-responsive" alt="table">
           <p class="price">
-            4 eur
+            14 eur
           </p>
 
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
-          <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
-        </div>
-
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chairs.jpg" class="img-responsive" alt="chair">
-          <p class="price">
-            4 eur
-          </p>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
-          <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
-        </div>
-
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chair1.jpg" class="img-responsive" alt="chair">
-          <p class="price">
-            4 eur
-          </p>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
-          <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
-        </div>
-
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/stool1.jpg" class="img-responsive" alt="chair">
-          <p class="price">
-            4 eur
-          </p>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
+          <button class="btn btn-default" type="submit">Add</button>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
       </div>
 
-      <div class="row row-content search-result-row">
-        <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chair5.jpg" class="img-responsive" alt="chair">
-          <!-- <div class="has-success"> -->
-          <p class="price">
-            4 eur
-          </p>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox">
-            add
-            </label>
-          </div>
-  <!-- </div> -->
-          <!-- <p class="price">
-            4 eur
-          </p> -->
-          <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
-        </div>
-      </div>
+
 
       <div class="row row-content search-result-row">
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4 search-result" onclick="goToLink('link.html')">
+        <div class="col-xs-12 col-sm-4 col-sm-offset-4 search-result">
 
-          <a class="btn btn-default" href="#" role="button">Add to basket</a>
+          <a class="btn btn-default btn-lg" href="#" role="button">Add to basket</a>
         </div>
       </div>
     </div>
@@ -305,7 +207,7 @@
 
       <div class="row row-content divider">
         <div class="col-xs-12 col-sm-12">
-          <h4>Sofas</h4>
+          <h4>Sleeping sets</h4>
         </div>
       </div>
 
@@ -313,7 +215,7 @@
         <div class="col-xs-12 col-sm-12">
           <h3>Sorry, no items available</h3>
           <p>
-            Would you like us to let you know when a new sofa is added? <br />
+            Would you like us to let you know when a new set is added? <br />
             Please enter your email and we'll let you know.
           </p>
         </div>
@@ -334,6 +236,13 @@
           </p>
 
           <img id="affiliate-offer"class="img img-responsive" src="img/blankets.jpg" href="" alt="offer">
+        </div>
+        <div class="row row-content">
+          <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+            <button class="btn btn-default" onClick="#">Buy new</button>
+            <button class="btn btn-warning" onClick="#">Proceed to checkout</button>
+          </div>
+
         </div>
       </div>
 
@@ -367,7 +276,7 @@
 
         <div class="col-xs-4 col-sm-4">
           <div class="form-group">
-            <label for="picupDay">Delivery time?</label> <i class="fa fa-plus"></i>
+            <label for="picupDay">When?</label> <i class="fa fa-plus"></i>
             <select id="pickupDay" class="form-control">
               <option value=""></option>
               <option value="" selected>Mondays</option>

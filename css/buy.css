@@ -10,7 +10,12 @@ h3 {
   padding: 2rem 0 3rem 0;
 }
 
-.search-result-row {
+/*.search-result-row {
+  margin-bottom: 6rem;
+}*/
+
+
+.search-result {
   margin-bottom: 6rem;
 }
 
@@ -44,12 +49,6 @@ input {
   color: green;
 }
 
-.checkbox  {
-  float: right;
-  /*display: block;*/
-  padding-right: 1rem;
-  margin: 0;
-}
 
 
 .price {
@@ -108,7 +107,7 @@ input {
   .btn-warning  {
    width: 70%;
   }
-  
+
 .btn-default {
    width: 70%;
 
