@@ -85,10 +85,10 @@
 
         <div class="row row-content">
           <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-            <select class="form-control input-lg">
-              <option>Chairs</option>
-              <option>Tables / desks</option>
-              <option>Sofas</option>
+            <select class="form-control input-lg" id="categorySelect">
+              <option value="chairs-search">Chairs</option>
+              <option value='tables-search'>Tables / desks</option>
+              <option value='sofas-search'>Sofas</option>
               <option>Beds / matresses</option>
               <option>Kitchen equipment</option>
               <option>Sleeping sets</option>
@@ -98,13 +98,13 @@
 
         <div class="row row-content">
           <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-            <a type="button" class="btn btn-lg btn-default btn-block" data-placement="bottom">Search</a>
+            <a type="button" class="btn btn-lg btn-default btn-block" data-placement="bottom" onClick="reveal();">Search</a>
           </div>
         </div>
       </div>
     </header>
 
-    <div id="chairs-search" class="container">
+    <div id="chairs-search" class="container" style="display: none;">
       <div class="row row-content">
         <div class="col-xs-12 col-sm-12">
           <h3>Check out what people are offering:</h3>
@@ -205,7 +205,7 @@
       </div>
     </div>
 
-    <div id="tables-search" class="container">
+    <div id="tables-search" class="container" style="display: none;">
       <div class="row row-content divider">
         <div class="col-xs-12 col-sm-12">
           <h4>Chairs</h4>
@@ -301,7 +301,7 @@
     </div>
 
 
-    <div id="sofas-search" class="container">
+    <div id="sofas-search" class="container" style="display: none;">
 
       <div class="row row-content divider">
         <div class="col-xs-12 col-sm-12">
@@ -508,3 +508,17 @@
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
+
+<script type="text/javascript">
+    
+    function reveal(){
+      document.getElementById('sofas-search').style.display = 'none';
+      document.getElementById('chairs-search').style.display = 'none';
+      document.getElementById('tables-search').style.display = 'none';
+
+      var selectValue = document.getElementById('categorySelect').value;
+
+      document.getElementById(selectValue).style.display = 'block';
+    }
+
+</script>
