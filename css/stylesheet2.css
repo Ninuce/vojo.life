@@ -1,8 +1,8 @@
 a {
-	color: #FA8E3A;
+	color: #FFC52F;
 }
 a:hover {
-	color: #FA8E3A;
+	color: #FFC52F;
 }
 
 input:hover, select:hover {
@@ -14,7 +14,7 @@ input[type="time"] {
 }
 
 .fa-border {
-	border-color: #FA8E3A !important;
+	border-color: #FFC52F !important;
 }
 
 #sell-add-product-initial {
@@ -48,11 +48,12 @@ input[type="time"] {
 
 .buy-end .order-placed {
 	position: absolute;
-	top: 8rem;
+	top: 9rem;
 	left: 0;
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	width: 230px;
+	width: 295px;
 	text-decoration: underline;
+	color: #FA8E3A;
 }
