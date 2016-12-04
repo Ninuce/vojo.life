@@ -38,13 +38,40 @@ p {
 
 input {
   margin-bottom: 2rem;
-  font-size: inherit;
 }
 
 .form-control option {
   color: green;
 }
 
+.checkbox  {
+  float: right;
+  /*display: block;*/
+  padding-right: 1rem;
+  margin: 0;
+}
+
+
+.price {
+  text-align: center;
+  /*padding: 1rem;*/
+  display: block;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 21px;
+  font-family: Helvetica Neue;
+}
+
+/*label {
+text-align: right;
+padding-right: 1rem;
+
+}
+
+input {
+  padding-left: 1rem;
+  float: right;
+}*/
 
 .img-responsive {
   width: 200px;
@@ -62,8 +89,4 @@ input {
  display: block;
  width: 50%;
  margin: auto;
-}
-
-.price {
-  text-align: center;
 }
