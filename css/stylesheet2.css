@@ -36,3 +36,8 @@ input[type="time"] {
 	width: 15px;
 	height: 15px;
 }
+
+.btn-primary {
+	background-color: #FFC52F !important;
+	border-color: #FFC52F !important;
+}
