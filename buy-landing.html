@@ -97,7 +97,7 @@
         </div>
 
         <div class="row row-content">
-          <div class="col-xs-12 col-sm-2 col-sm-offset-5">
+          <div class="col-xs-12 col-sm-4 col-sm-offset-4">
             <a type="button" class="btn btn-lg btn-default btn-block" data-placement="bottom">Search</a>
           </div>
         </div>
@@ -302,11 +302,13 @@
 
 
     <div id="sofas-search" class="container">
+
       <div class="row row-content divider">
         <div class="col-xs-12 col-sm-12">
           <h4>Sofas</h4>
         </div>
       </div>
+
       <div class="row row-content">
         <div class="col-xs-12 col-sm-12">
           <h3>Sorry, no items available</h3>
@@ -315,13 +317,15 @@
             Please enter your email and we'll let you know.
           </p>
         </div>
-        <div class="row row-content">
-          <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
-            <input class="form-control input-lg" type="text" placeholder="e-mail">
-            <a class="btn btn-warning" href="#" role="button">Go</a>
-          </div>
+      </div>
+
+      <div class="row row-content">
+        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+          <input class="form-control input-lg" type="text" placeholder="e-mail">
+          <a class="btn btn-warning" href="#" role="button">Go</a>
         </div>
       </div>
+
       <div class="row row-content">
         <div class="col-xs-12 col-sm-12">
           <h3>Buy new</h3>
@@ -333,23 +337,20 @@
         </div>
       </div>
 
-
     </div>
 
     <div class="container checkout">
-    <div class="row row-content">
-      <div class="col-xs-12 col-sm-12">
-        <h1>Where can we pick it up?</h1>
+      <div class="row row-content">
+        <div class="col-xs-12 col-sm-12">
+          <h1>Shipping options</h1>
+        </div>
       </div>
-    </div>
 
-    <!--
-    <div class="row row-content">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-        <p>add subtext here<p>
+      <div class="row row-content">
+        <div class="col-xs-12 col-sm-12">
+          <h3>Delivered to your door</h3>
+        </div>
       </div>
-    </div>
-    -->
 
     <form>
       <div class="row row-content">
@@ -366,7 +367,7 @@
 
         <div class="col-xs-4 col-sm-4">
           <div class="form-group">
-            <label for="picupDay">Pickup time?</label> <i class="fa fa-plus"></i>
+            <label for="picupDay">Delivery time?</label> <i class="fa fa-plus"></i>
             <select id="pickupDay" class="form-control">
               <option value=""></option>
               <option value="" selected>Mondays</option>
@@ -394,21 +395,13 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-12">
-          <div class="form-group">
-            <label for="charity">If there is no buyer, would you like us to donate your item(s) to a charity?</label>
-            <input id="charity" type="checkbox" class="form-control">
-          </div>
-        </div>
-
-
-
       </div>
 
       <div class="row row-content">
 
         <div class="col-xs-12 col-sm-12">
-          <button class="btn" onClick="window.location.href='sell-add-product.html'; return false;">Back</button> <button class="btn btn-primary" onClick="window.location.href='sell-call-to-action.html'; return false;">Continue</button>
+          <button class="btn btn-default" onClick="#">Back</button>
+          <button class="btn btn-warning" onClick="#">Continue</button>
         </div>
 
       </div>
@@ -417,6 +410,63 @@
 
   </div>
 
+
+
+  <div class="container checkout">
+    <div class="row row-content">
+      <div class="col-xs-12 col-sm-12">
+        <h3>Pick up yourself</h3>
+      </div>
+    </div>
+
+  <form>
+    <div class="row row-content">
+
+      <div class="col-xs-4 col-sm-4">
+        <div class="form-group">
+          <label for="picupDay">Pickup time?</label> <i class="fa fa-plus"></i>
+          <select id="pickupDay" class="form-control">
+            <option value=""></option>
+            <option value="" selected>Mondays</option>
+            <option value="">Tuesdays</option>
+            <option value="">Wednesdays</option>
+            <option value="">Thursdays</option>
+            <option value="">Fridays</option>
+            <option value="">Saturdays</option>
+            <option value="">Sundays</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-xs-4 col-sm-4">
+        <div class="form-group">
+          <label for="pickupTimeFrom">between</label>
+          <input id="pickupTimeFrom" type="time" class="form-control" value="16:00">
+        </div>
+      </div>
+
+      <div class="col-xs-4 col-sm-4">
+        <div class="form-group">
+          <label for="pickupTimeFrom">and</label>
+          <input id="pickupTimeFrom" type="time" class="form-control" value="21:00">
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="row row-content">
+
+      <div class="col-xs-12 col-sm-12">
+        <button class="btn btn-default" onClick="#">Back</button>
+        <button class="btn btn-warning" onClick="#">Continue</button>
+      </div>
+
+    </div>
+
+  </form>
+
+  </div>
 
 <!--
     <div class="container">

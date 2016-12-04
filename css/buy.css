@@ -7,7 +7,7 @@ text-align: center;
 
 h3 {
   text-align: center;
-  padding: 1rem 0 4rem 0;
+  padding: 2rem 0 3rem 0;
 }
 
 .search-result-row {
@@ -81,14 +81,14 @@ input {
 
  .btn-default {
   display: block;
-  width: 70%;
+  width: 50%;
   margin: auto;
 }
 
 .btn-warning {
  display: block;
  width: 50%;
- margin: auto;
+ margin: 1rem auto 0 auto;
 }
 
 
@@ -98,10 +98,19 @@ input {
 
 #affiliate-offer {
   width: 30%;
+  margin-top: 3rem;
 }
 
 @media (max-width: 768px) {
   #affiliate-offer {
     width: 70%;
+  }
+  .btn-warning  {
+   width: 70%;
+  }
+  
+.btn-default {
+   width: 70%;
+
   }
 }
