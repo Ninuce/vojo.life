@@ -90,3 +90,18 @@ input {
  width: 50%;
  margin: auto;
 }
+
+
+.checkout {
+  margin-top: 4rem;
+}
+
+#affiliate-offer {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  #affiliate-offer {
+    width: 70%;
+  }
+}

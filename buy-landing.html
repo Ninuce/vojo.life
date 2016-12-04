@@ -31,17 +31,20 @@
 
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-           <li class="active"><a href="index.html">Home</a></li>
-
-          <li>
-            <a href="page1.html">page1</a>
+            <li class="active">
+              <a href="index.html">Home</a>
             </li>
 
             <li>
-              <a href="page2.html">page2</a>
+              <a href="buy-landing.html">Buy</a>
             </li>
+
             <li>
-              <a href="page3.html">page3</a>
+              <a href="sell-add-product.html">Sell</a>
+            </li>
+
+            <li>
+              <a href="about.html">About</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -202,55 +205,97 @@
       </div>
     </div>
 
-
     <div id="tables-search" class="container">
       <div class="row row-content divider">
         <div class="col-xs-12 col-sm-12">
-          <h4>Tables</h4>
+          <h4>Chairs</h4>
         </div>
       </div>
 
       <div class="row row-content search-result-row">
         <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chair123.jpg" class="img-responsive" alt="table">
+          <img src="img/chair123.jpg" class="img-responsive" alt="chair">
           <p class="price">
             4 eur
           </p>
+
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">
+            add
+            </label>
+          </div>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
 
         <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chairs.jpg" class="img-responsive" alt="table">
+          <img src="img/chairs.jpg" class="img-responsive" alt="chair">
           <p class="price">
             4 eur
           </p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">
+            add
+            </label>
+          </div>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
 
         <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chair1.jpg" class="img-responsive" alt="table">
+          <img src="img/chair1.jpg" class="img-responsive" alt="chair">
           <p class="price">
             4 eur
           </p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">
+            add
+            </label>
+          </div>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
 
         <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/stool1.jpg" class="img-responsive" alt="table">
+          <img src="img/stool1.jpg" class="img-responsive" alt="chair">
           <p class="price">
             4 eur
           </p>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">
+            add
+            </label>
+          </div>
           <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
         </div>
       </div>
 
       <div class="row row-content search-result-row">
         <div class="col-xs-12 col-sm-3 search-result" onclick="goToLink('link.html')">
-          <img src="img/chair5.jpg" class="img-responsive" alt="table">
+          <img src="img/chair5.jpg" class="img-responsive" alt="chair">
+          <!-- <div class="has-success"> -->
           <p class="price">
             4 eur
           </p>
-          <!-- <a class="btn btn-default" href="" role="button">Add to basket</a> -->
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">
+            add
+            </label>
+          </div>
+  <!-- </div> -->
+          <!-- <p class="price">
+            4 eur
+          </p> -->
+          <!-- <a class="btn btn-default" href="#" role="button">Add to basket</a> -->
+        </div>
+      </div>
+
+      <div class="row row-content search-result-row">
+        <div class="col-xs-12 col-sm-4 col-sm-offset-4 search-result" onclick="goToLink('link.html')">
+
+          <a class="btn btn-default" href="#" role="button">Add to basket</a>
         </div>
       </div>
     </div>
@@ -270,14 +315,107 @@
             Please enter your email and we'll let you know.
           </p>
         </div>
-      </div>
-      <div class="row row-content">
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-          <input class="form-control input-lg" type="text" placeholder="e-mail">
-          <a class="btn btn-warning" href="#" role="button">Go</a>
+        <div class="row row-content">
+          <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
+            <input class="form-control input-lg" type="text" placeholder="e-mail">
+            <a class="btn btn-warning" href="#" role="button">Go</a>
+          </div>
         </div>
       </div>
+      <div class="row row-content">
+        <div class="col-xs-12 col-sm-12">
+          <h3>Buy new</h3>
+          <p>
+            Here are some options from our partners in case you don't want to wait.
+          </p>
+
+          <img id="affiliate-offer"class="img img-responsive" src="img/blankets.jpg" href="" alt="offer">
+        </div>
+      </div>
+
+
     </div>
+
+    <div class="container checkout">
+    <div class="row row-content">
+      <div class="col-xs-12 col-sm-12">
+        <h1>Where can we pick it up?</h1>
+      </div>
+    </div>
+
+    <!--
+    <div class="row row-content">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+        <p>add subtext here<p>
+      </div>
+    </div>
+    -->
+
+    <form>
+      <div class="row row-content">
+
+        <div class="col-xs-12 col-sm-12">
+          <div class="form-group">
+            <label for="location">Where do you live?</label>
+            <select id="location" class="form-control input-lg">
+              <option value="">Pärnu (auto-detected)</option>
+              <option value="">Tallinn</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4">
+          <div class="form-group">
+            <label for="picupDay">Pickup time?</label> <i class="fa fa-plus"></i>
+            <select id="pickupDay" class="form-control">
+              <option value=""></option>
+              <option value="" selected>Mondays</option>
+              <option value="">Tuesdays</option>
+              <option value="">Wednesdays</option>
+              <option value="">Thursdays</option>
+              <option value="">Fridays</option>
+              <option value="">Saturdays</option>
+              <option value="">Sundays</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4">
+          <div class="form-group">
+            <label for="pickupTimeFrom">between</label>
+            <input id="pickupTimeFrom" type="time" class="form-control" value="16:00">
+          </div>
+        </div>
+
+        <div class="col-xs-4 col-sm-4">
+          <div class="form-group">
+            <label for="pickupTimeFrom">and</label>
+            <input id="pickupTimeFrom" type="time" class="form-control" value="21:00">
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12">
+          <div class="form-group">
+            <label for="charity">If there is no buyer, would you like us to donate your item(s) to a charity?</label>
+            <input id="charity" type="checkbox" class="form-control">
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="row row-content">
+
+        <div class="col-xs-12 col-sm-12">
+          <button class="btn" onClick="window.location.href='sell-add-product.html'; return false;">Back</button> <button class="btn btn-primary" onClick="window.location.href='sell-call-to-action.html'; return false;">Continue</button>
+        </div>
+
+      </div>
+
+    </form>
+
+  </div>
 
 
 <!--
@@ -305,7 +443,7 @@
         <div class="row row-footer">
             <div class="col-xs-12">
               <p>
-                Blanket INC, All Rights Reserved
+                Vojo INC, All Rights Reserved
               </p>
               <p>
                 2016
