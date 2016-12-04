@@ -41,3 +41,18 @@ input[type="time"] {
 	background-color: #FFC52F !important;
 	border-color: #FFC52F !important;
 }
+
+.buy-end .jumbotron .subtitle {
+	color: black;
+}
+
+.buy-end .order-placed {
+	position: absolute;
+	top: 8rem;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 230px;
+	text-decoration: underline;
+}
