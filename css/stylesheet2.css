@@ -5,6 +5,14 @@ a:hover {
 	color: #FA8E3A;
 }
 
+input:hover, select:hover {
+	cursor: pointer;
+}
+
+input[type="time"] {
+	padding-right: 0px;
+}
+
 .fa-border {
 	border-color: #FA8E3A !important;
 }
@@ -22,4 +30,9 @@ a:hover {
 
 #imgInp {
 	display: none;
+}
+
+#charity {
+	width: 15px;
+	height: 15px;
 }
